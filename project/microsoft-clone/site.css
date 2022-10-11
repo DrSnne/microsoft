@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+    display: flex;
+}
+
+.nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: .3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+#left,
+#right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#left>img {
+    width: 108px;
+}
+
+#right {
+    justify-content: end;
+}
