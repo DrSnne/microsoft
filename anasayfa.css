@@ -26,6 +26,11 @@ body {
     font-size: 14px;
 }
 
+#ust-bolge a:hover {
+    width: 100%;
+    text-decoration: underline 2px;
+}
+
 #sag_ust {
     margin-left: 800px;
 }
@@ -33,9 +38,9 @@ body {
 #ust-bolge a {
     /* margin-left: 20px; */
     padding: 16px 8px 10px;
+    text-decoration: none;
+    color: black;
 }
-
-#birinci-resim {}
 
 .arka-resim {
     background-image: url(/images/slide.webp);
@@ -45,7 +50,7 @@ body {
 
 .icerikler {
     padding: 180px;
-    padding-left: 50px !important;
+    padding-left: 100px !important;
 
 }
 
@@ -64,20 +69,153 @@ body {
     width: 150px;
 }
 
-.yanyana {}
+.yanyana {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 
 #semboller {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 
 }
 
 #semboller>a {
-    margin: 30px;
+    margin: 20px;
     width: 200px;
     height: 50px;
 }
 
 #semboller img {
-    margin-left: 50%;
+    margin-left: 25%;
+}
+
+.kutu {
+    width: 410px;
+    height: 440px;
+    background-color: pink;
+    margin: 10px;
+
+}
+
+.yanyana>div>a>img {
+    width: 410px;
+    height: 200px;
+}
+
+.yanyana>div>a {
+    text-decoration: none;
+    color: black;
+}
+
+.yanyana>div>a:hover {
+    text-decoration: underline 2px;
+}
+
+.yanyana>div>div {
+    margin-left: 5px;
+}
+
+
+.yanyana>div>div::after {
+    content: ">";
+    color: rgb(0, 0, 268);
+}
+
+.yanyana>div>div a:hover {
+    font-size: 20px;
+}
+
+.bg {
+    display: flex;
+}
+
+#inbox {
+    display: flex;
+    background-image: url(/images/center_slide.webp);
+    height: 600px;
+    width: 1700px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#soldan-kayir {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.kutu h1 {
+    font-size: 30px;
+}
+
+#yenlikleri-takip {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    justify-content: space-between 10px;
+    margin-bottom: 100px;
+}
+
+.sosyal-medya {
+    margin-left: 20px;
+
+}
+
+.sosyal-medya a {
+    color: black;
+}
+
+#basa-don {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 50px;
+
+}
+
+#basa-don button {
+    padding: 15px 20px;
+    border: 0;
+}
+
+#basa-don button:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#footer {
+    background-color: rgb(242, 242, 242);
+    width: auto;
+    height: 400px;
+}
+
+#footer-sablon {
+    display: flex;
+    justify-content: center;
+}
+
+.sablon {
+    margin-top: 40px;
+
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+
+.sablon a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.sablon a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.sablon h1 {
+    font-size: 20px;
 }
