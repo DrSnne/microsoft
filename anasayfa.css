@@ -43,15 +43,21 @@ body {
 }
 
 .arka-resim {
-    background-image: url(/images/slide.webp);
+    margin-left: 150px;
+
     width: auto;
     height: 600px;
 }
 
+.back {
+    position: relative;
+}
+
 .icerikler {
+    position: absolute;
     padding: 180px;
     padding-left: 100px !important;
-
+    margin-top: -600px;
 }
 
 .resimler {
@@ -133,8 +139,8 @@ body {
 }
 
 #inbox {
-    display: flex;
-    background-image: url(/images/center_slide.webp);
+    display: block;
+    position: relative;
     height: 600px;
     width: 1700px;
     margin-left: 100px;
