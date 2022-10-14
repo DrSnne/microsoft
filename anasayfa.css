@@ -1,14 +1,15 @@
-#ust-bolge > img{
+#ust-bolge>img {
     width: 108px;
     height: 23;
     margin-left: 200px;
 }
+
 #sol_üst_köse {
     display: inline-block;
     margin-left: 1px;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -24,6 +25,7 @@ body{
     height: 45px;
     font-size: 14px;
 }
+
 #sag_ust {
     margin-left: 800px;
 }
@@ -33,6 +35,49 @@ body{
     padding: 16px 8px 10px;
 }
 
-#birinci-resim{
+#birinci-resim {}
 
+.arka-resim {
+    background-image: url(/images/slide.webp);
+    width: auto;
+    height: 600px;
+}
+
+.icerikler {
+    padding: 180px;
+    padding-left: 50px !important;
+
+}
+
+.resimler {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buton {
+    display: block;
+    background-color: #0d8ee4;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+}
+
+.yanyana {}
+
+#semboller {
+    display: flex;
+    justify-content: center;
+
+}
+
+#semboller>a {
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+#semboller img {
+    margin-left: 50%;
 }
