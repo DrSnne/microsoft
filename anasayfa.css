@@ -1,10 +1,11 @@
-#sol_üst_köse > img{
+#ust-bolge > img{
     width: 108px;
     height: 23;
+    margin-left: 200px;
 }
 #sol_üst_köse {
-    display: flex;
-
+    display: inline-block;
+    margin-left: 1px;
 }
 
 body{
@@ -17,9 +18,21 @@ body{
 
 #ust-bolge {
     display: flex;
-    width: 1500px;
-    justify-content: space-between;
+    width: 100½;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 45px;
+    font-size: 14px;
 }
 #sag_ust {
+    margin-left: 800px;
+}
+
+#ust-bolge a {
+    /* margin-left: 20px; */
+    padding: 16px 8px 10px;
+}
+
+#birinci-resim{
 
 }
